@@ -17,7 +17,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "https://portfolio-iota-three-86.vercel.app/", // Replace with your frontend URL
+  origin: "https://portfolio-iota-three-86.vercel.app", // Replace with your frontend URL
   credentials: true, // Include credentials in CORS requests
 };
 
